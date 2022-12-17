@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <HelmetProvider>
-    <BrowserRouter basename='/'>
+    <BrowserRouter basname={window.location.pathname || ''}>
       <App />
     </BrowserRouter>
   </HelmetProvider>
