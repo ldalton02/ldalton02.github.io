@@ -2,9 +2,12 @@
   "name": "@minimal/material-kit-react",
   "author": "minimals.cc",
   "licence": "MIT",
+  "homepage": "https://ldalton02.github.io",
   "version": "1.6.0",
   "private": false,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -79,6 +82,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   },
   "overrides": {
